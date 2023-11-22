@@ -1,0 +1,34 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:enchanting/progression/levels1_30",
+        "apotheosis:enchanting/progression/levels80_100",
+        "apotheosis:enchanting/progression/levels60_80",
+        "apotheosis:enchanting/utility/cobwebs",
+        "apotheosis:adventure/bosses/boss_dungeons",
+        "apotheosis:adventure/bosses/surface_bosses",
+        "apotheosis:adventure/bosses/minibosses",
+        "apotheosis:adventure/affix_loot/rarities",
+        "apotheosis:adventure/affix_loot/reforging",
+        "apotheosis:enchanting/table/info",
+        "apotheosis:enchanting/table/enchantability",
+        "apotheosis:adventure/affix_loot/gem_cutting",
+        "apotheosis:adventure/affix_loot/gems",
+        "apotheosis:adventure/affix_loot/affixes",
+        "apotheosis:adventure/bosses/boss_items",
+        "apotheosis:adventure/rogue_spawners/brutal_spawners",
+        "apotheosis:enchanting/table/power",
+        "apotheosis:village/wandering_trader",
+        "apotheosis:potion/charms/charm",
+        "apotheosis:potion/charms/unbreakable",
+        "apotheosis:enchanting/table/infusion",
+        "apotheosis:enchanting/table/stats"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
