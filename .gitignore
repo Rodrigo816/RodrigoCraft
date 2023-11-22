@@ -1,0 +1,10 @@
+# Ignore folders
+/logs/
+/crash-reports/
+/mods/
+/saves/
+
+# files
+.curseclient
+usernamecache.json
+usercache.json
