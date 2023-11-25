@@ -3,6 +3,10 @@
 /crash-reports/
 /mods/
 /saves/
+/XaeroWorldMap/
+/XaeroWorldWaypoints/
+/XaeroWaypoints/
+XaeroWaypoints_*/
 
 # files
 .curseclient

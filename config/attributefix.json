@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "obscure_api:penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -44,6 +55,17 @@
         "value": 1024
       }
     },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "skilltree:crit_chance_against_burning": {
       "enabled": false,
       "min": {
@@ -64,6 +86,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "irons_spellbooks:nature_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:crit_chance_with_shield": {
@@ -99,17 +132,6 @@
         "value": 1024
       }
     },
-    "puffish_skills:player.ranged_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      }
-    },
     "attributeslib:armor_pierce": {
       "enabled": false,
       "min": {
@@ -119,6 +141,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "puffish_skills:player.ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "skilltree:brewed_beneficial_potions_strength": {
@@ -253,6 +286,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:cast_time_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:free_enchantment_chance": {
       "enabled": false,
       "min": {
@@ -330,6 +374,17 @@
         "value": 1024
       }
     },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "skilltree:equipment_repair_efficiency": {
       "enabled": false,
       "min": {
@@ -361,6 +416,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:holy_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:brewed_harmful_potions_strength": {
@@ -427,6 +493,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:evocation_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "doggytalents:generic.jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "skilltree:crafted_shields_block_chance": {
@@ -517,6 +605,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:lightning_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:crafted_helmets_sockets": {
       "enabled": false,
       "min": {
@@ -528,6 +627,39 @@
         "value": 1024
       }
     },
+    "caelus:fall_flying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "obscure_api:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -537,6 +669,17 @@
       "max": {
         "default": 1024,
         "value": 1000000
+      }
+    },
+    "irons_spellbooks:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "puffish_skills:player.knockback": {
@@ -570,6 +713,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.warding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:overheal": {
@@ -682,6 +836,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:fire_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:armor_with_shield": {
       "enabled": false,
       "min": {
@@ -702,6 +867,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.saturation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "irons_spellbooks:summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:brewed_potions_strength": {
@@ -735,6 +922,28 @@
       "max": {
         "default": 24,
         "value": 24
+      }
+    },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "irons_spellbooks:spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "combatroll:recharge": {
@@ -792,6 +1001,28 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:fire_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "irons_spellbooks:ender_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:attack_speed_under_potion_effect": {
       "enabled": false,
       "min": {
@@ -814,6 +1045,17 @@
         "value": 64
       }
     },
+    "irons_spellbooks:blood_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:armor_with_enchanted_shield": {
       "enabled": false,
       "min": {
@@ -823,6 +1065,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "divine_weaponry:zeus_relay": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "puffish_skills:player.mining_speed": {
@@ -858,6 +1111,28 @@
         "value": 1024
       }
     },
+    "obscure_api:parry": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
+        "value": 2000
+      }
+    },
     "skilltree:damage_if_not_hungry": {
       "enabled": false,
       "min": {
@@ -891,6 +1166,17 @@
         "value": 4
       }
     },
+    "divine_weaponry:erebus_flight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "skilltree:evasion_chance": {
       "enabled": false,
       "min": {
@@ -902,6 +1188,17 @@
         "value": 1024
       }
     },
+    "ars_nouveau:ars_nouveau.perk.feather": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "skilltree:damage_per_distance_to_spawn": {
       "enabled": false,
       "min": {
@@ -911,6 +1208,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "skilltree:crafted_boots_movement_speed": {
@@ -1166,6 +1474,17 @@
         "value": 1024
       }
     },
+    "doggytalents:generic.crit_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "skilltree:can_poison_weapons": {
       "enabled": false,
       "min": {
@@ -1199,6 +1518,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:nature_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:can_mix_potions": {
       "enabled": false,
       "min": {
@@ -1219,6 +1549,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
+      }
+    },
+    "irons_spellbooks:lightning_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:damage_per_enchantment": {
@@ -1274,6 +1626,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:entity_reach": {
@@ -1430,6 +1793,17 @@
         "value": 1024
       }
     },
+    "ars_nouveau:ars_nouveau.perk.wixie": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.armor_toughness": {
       "enabled": true,
       "min": {
@@ -1439,6 +1813,17 @@
       "max": {
         "default": 20,
         "value": 1000000
+      }
+    },
+    "doggytalents:generic.crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "skilltree:maximum_life_per_armor_enchantment": {
@@ -1494,6 +1879,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:evocation_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "forge:block_reach": {
@@ -1694,6 +2090,17 @@
         "value": 1024
       }
     },
+    "divine_weaponry:erebus_wither_direction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "attributeslib:mining_speed": {
       "enabled": false,
       "min": {
@@ -1716,6 +2123,28 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:spell_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "irons_spellbooks:ice_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:cooked_food_crit_damage_per_saturation": {
       "enabled": false,
       "min": {
@@ -1736,6 +2165,28 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "irons_spellbooks:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.knockback_resistance": {
@@ -1791,6 +2242,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "irons_spellbooks:holy_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:experience_from_fishing": {
@@ -1870,6 +2343,17 @@
         "value": 1024
       }
     },
+    "obscure_api:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
+      }
+    },
     "skilltree:crit_damage_with_shield": {
       "enabled": false,
       "min": {
@@ -1923,6 +2407,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:cooldown_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -10,
+        "value": -10
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:damage_per_weapon_enchantment_level": {
@@ -2033,6 +2528,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "irons_spellbooks:ice_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:life_on_block_per_shield_enchantment": {
@@ -2167,6 +2673,17 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:ender_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:maximum_life_per_evasion": {
       "enabled": false,
       "min": {
@@ -2198,6 +2715,17 @@
       "max": {
         "default": 30,
         "value": 1000000
+      }
+    },
+    "irons_spellbooks:blood_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:maximum_weapon_sockets": {
