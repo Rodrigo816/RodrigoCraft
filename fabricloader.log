@@ -1,0 +1,4 @@
+[21:24:36] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[21:24:36] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE mythicmobs 1.20.1-connector-1.4.5 {depends azurelib @ [>=1.0.29]}, ROOT_FORCELOAD_SINGLE mythicmobs 1.20.1-connector-1.4.5]
+[21:24:36] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP mythicmobs 1.20.1-connector-1.4.5 {depends azurelib @ [>=1.0.29]}, HARD_DEP mythicmobs 1.20.1-connector-1.4.5 {depends midnightlib @ [>=1.4.1-fabric]}]
+[21:24:36] [INFO] [FabricLoader/Resolution]: Fix: add [add:azurelib 1.0.29 ([[1.0.29,âˆž)]), add:midnightlib 1.4.1-fabric ([[1.4.1-fabric,âˆž)])], remove [], replace []
