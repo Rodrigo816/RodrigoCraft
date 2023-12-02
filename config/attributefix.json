@@ -902,17 +902,6 @@
         "value": 1024
       }
     },
-    "ars_nouveau:ars_nouveau.perk.saturation": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "irons_spellbooks:summon_damage": {
       "enabled": false,
       "min": {
@@ -922,6 +911,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.saturation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "skilltree:brewed_potions_strength": {
@@ -1034,22 +1034,22 @@
         "value": 1024
       }
     },
-    "eidolon:magic_power": {
+    "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": 1,
+        "value": 1
       },
       "max": {
         "default": 10,
         "value": 10
       }
     },
-    "irons_spellbooks:fire_magic_resist": {
+    "eidolon:magic_power": {
       "enabled": false,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 10,
@@ -1100,6 +1100,17 @@
         "value": 10
       }
     },
+    "wizards_reborn:wissen_sale": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 75,
+        "value": 75
+      }
+    },
     "skilltree:armor_with_enchanted_shield": {
       "enabled": false,
       "min": {
@@ -1111,17 +1122,6 @@
         "value": 1024
       }
     },
-    "divine_weaponry:zeus_relay": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
-      }
-    },
     "puffish_skills:player.mining_speed": {
       "enabled": false,
       "min": {
@@ -1131,6 +1131,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "divine_weaponry:zeus_relay": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "skilltree:life_per_hit": {
@@ -2112,6 +2123,17 @@
         "value": 1024
       }
     },
+    "tropicraft:underwater_visibility": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "skilltree:crafted_quivers_chance_to_ignite": {
       "enabled": false,
       "min": {
@@ -2374,6 +2396,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "galosphere:illager_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:damage_with_shield": {
