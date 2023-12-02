@@ -93,13 +93,13 @@
 		fast_lanterns = false
 
 		[blocks.wall_lantern.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
 			frequency = 0.6
+			collision_considers_entity_hitbox = true
+			collision_inertia = 1.0
+			collision_force = 15.0
+			min_angle = 0.79999995
 			max_angle = 60.0
+			damping = 0.525
 
 	[blocks.enhanced_hanging_sign]
 		#Modifies vanilla hanging signs to make them like old Supplementaries ones
@@ -108,13 +108,24 @@
 		fast_signs = false
 
 		[blocks.enhanced_hanging_sign.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
 			frequency = 0.6
+			collision_considers_entity_hitbox = true
+			collision_inertia = 1.0
+			collision_force = 15.0
+			min_angle = 0.79999995
 			max_angle = 60.0
+			damping = 0.525
+
+	[blocks.hat_stand]
+
+		[blocks.hat_stand.swing_physics]
+			frequency = 1.5
+			collision_considers_entity_hitbox = true
+			collision_inertia = 1.5
+			collision_force = 15.0
+			min_angle = 0.0
+			max_angle = 54.999996
+			damping = 1.625
 
 	[blocks.turn_table]
 		#Display visual particles when a block is rotated
@@ -144,6 +155,8 @@
 
 #General settings
 [general]
+	#Disables Optifine warn screen
+	no_optifine_warn_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
 	config_button = false
 	#Show some tooltip hints to guide players through the mod

@@ -9,7 +9,7 @@
 
 ["Enable/Disable Rings"]
 	ringFireResistance = true
-	ringInvisibility = false
+	ringInvisibility = true
 	ringRegeneration = true
 	ringSlowFalling = true
 	ringStrength = true
@@ -21,9 +21,9 @@
 	ringLuck = true
 	ringDolphin = true
 	ringMagnetism = true
-	ringFlight = false
+	ringFlight = true
 	ringPoisonResistance = true
-	ringHungerless = false
+	ringHungerless = true
 	ringGrowth = true
 	ringKnockbackResistance = true
 	ringHealth = true

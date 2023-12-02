@@ -1,7 +1,10 @@
 {
 	"version": 1,
+
 	"show_warnings": true,
+
 	"categories": [
-		"main"
+		"combat",
+		"mining"
 	]
 }
