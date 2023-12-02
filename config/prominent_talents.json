@@ -1,0 +1,17 @@
+{
+  "enable_powerlevel_display": true,
+  "enable_powerlevel_multiple_rounding": true,
+  "powerlevel_multiple_rounding": 5,
+  "powerlevel_max": 9999,
+  "powerlevel_formula": "((ATTACK_DAMAGE) * (ARMOR + ARMOR_TOUGHNESS / 3)) * ATTACK_SPEED",
+  "COLOR_TIER_1": 16777215,
+  "COLOR_TIER_2": 1230703,
+  "COLOR_TIER_3": 808877,
+  "COLOR_TIER_4": 9246123,
+  "COLOR_TIER_5": 14387469,
+  "COLOR_OUTLINE": 0,
+  "RANGE_TIER_1": 199,
+  "RANGE_TIER_2": 399,
+  "RANGE_TIER_3": 699,
+  "RANGE_TIER_4": 999
+}

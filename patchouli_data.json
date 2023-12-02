@@ -2,6 +2,25 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:rune_etching/entry_rp_active_defence",
+        "simplyswords:rune_etching/entry_rp_float",
+        "simplyswords:rune_etching/entry_rp_frost_ward",
+        "simplyswords:rune_etching/entry_rp_immolation",
+        "simplyswords:rune_etching/entry_rp_pincushion",
+        "simplyswords:rune_etching/entry_rp_slow",
+        "simplyswords:rune_etching/entry_rp_trailblaze",
+        "simplyswords:rune_etching/entry_rp_ward",
+        "simplyswords:rune_etching/entry_rp_zephyr",
+        "simplyswords:rune_etching/entry_rp_freeze",
+        "simplyswords:rune_etching/entry_rp_wildfire",
+        "simplyswords:rune_etching/entry_rp_swiftness",
+        "simplyswords:rune_etching/entry_rp_imbued"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "apotheosis:apoth_chronicle": {
       "viewedEntries": [
         "apotheosis:enchanting/progression/levels1_30",
@@ -41,6 +60,11 @@
       "viewedEntries": [
         "irons_spellbooks:progression/early_game"
       ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [],
       "bookmarks": [],
       "completedManualQuests": []
     }
