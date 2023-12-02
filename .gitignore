@@ -1,12 +1,12 @@
 # Ignore folders
 /logs/
 /crash-reports/
-/mods/
 /saves/
 /XaeroWorldMap/
 /XaeroWorldWaypoints/
 /XaeroWaypoints/
 XaeroWaypoints_*/
+/pfm/
 
 # files
 .curseclient
