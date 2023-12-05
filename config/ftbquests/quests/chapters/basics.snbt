@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	id: "09B56D111668F538"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EF85FF9606FFEDA"]
+			id: "5D5DAD0E0FC3DC21"
+			rewards: [{
+				id: "33C653970E580076"
+				item: "create_dd:rubber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3351922FB7DE9FA1"
+				item: "create_dd:rubber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02A3245959332FEE"]
+			id: "0EF85FF9606FFEDA"
+			rewards: [{
+				id: "3419FF00C27C9638"
+				item: "create_dd:raw_rubber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E16E94856A27C0F"
+				item: "create_dd:raw_rubber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4716ADD9A49D9ADF"]
+			id: "02A3245959332FEE"
+			rewards: [{
+				id: "012D5C89CCC35692"
+				item: "create_dd:sap_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F67F7BDC57A829D"
+				item: "create_dd:sap_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3736B8FDEBFE796E"]
+			id: "4716ADD9A49D9ADF"
+			rewards: [{
+				id: "78B7F920EDBC1134"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1EF1E74D156452"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["{@pagebreak}"]
+			id: "3736B8FDEBFE796E"
+			rewards: [{
+				id: "01BF99361E40C48F"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31867663D678FDC5"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D5DAD0E0FC3DC21"]
+			id: "1164625D858936F7"
+			rewards: [{
+				id: "675E7F186ABD39B3"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3654279E2B88D194"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "RUBBER BELTS"
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+	title: "Basics"
+}
