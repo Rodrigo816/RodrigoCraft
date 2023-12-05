@@ -13,7 +13,17 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     // You can modify as many recipes as you like in here,
     // without needing to use ServerEvents.recipes() again.
     ///// ADD ////    
+    // Define the result ItemStack
+    var resultItem = Item.of('create_dd:industrial_iron/empty_blaze_burner');
 
+    // Define the crafting recipe
+    event.shaped(resultItem, [
+        'RRR',
+        'R R',
+        'RRR'
+    ], {
+        R: 'create_dd:industrial_iron_sheet'
+    });
     ///// MODIFY ////
 
     ///// REMOVE ////
@@ -24,10 +34,10 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
     event.remove({ id: 'create_dd:crafting/gearbox_from_vertical_gearbox' })
     event.remove({ id: 'create_dd:crafting/gearbox' })
-
     event.remove({ id: 'create_dd:crafting/vertical_gearbox_from_gearbox' })
     event.remove({ id: 'create_dd:crafting/vertical_gearbox' })
     event.remove({ id: 'create_dd:crafting/adj_chain_gearshift' })
+    //event.remove({ id: 'create_dd:industrial_iron/empty_blaze_burner' })
     
 
 
@@ -35,5 +45,6 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     //Twilight Forest
     event.remove({id:'twilightforest:uncrafting_table'})
 
+    //Ad Astra
     event.remove({ id: 'ad_astra:hammering/iron_plate' })
   })
