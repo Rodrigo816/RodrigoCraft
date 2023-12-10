@@ -31,9 +31,9 @@
     // Type: Integer
     "freezeDamage": 1,
     // Type: Integer
-    "heatDamage": 2,
+    "heatDamage": 5,
     // Type: Integer
-    "acidRainDamage": 3,
+    "acidRainDamage": 10,
     "allowFlagImages": true,
     // A list of planets that should be disabled. This is a comma-separated list of planet ids.
     "disabledPlanets": "",
@@ -195,7 +195,7 @@
         // Type: Long
         "maxEnergy": 18000,
         // Type: Double
-        "energyMultiplier": 1.0
+        "energyMultiplier": 0.4
     },
     "waterPump": {
         // Type: Long

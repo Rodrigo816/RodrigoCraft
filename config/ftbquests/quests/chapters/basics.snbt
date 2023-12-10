@@ -57,6 +57,7 @@
 		}
 		{
 			dependencies: ["3736B8FDEBFE796E"]
+			description: ["xcvcxvxcvxcvcxvxcv"]
 			id: "4716ADD9A49D9ADF"
 			rewards: [{
 				id: "78B7F920EDBC1134"
@@ -79,6 +80,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
+			subtitle: "ccxbf"
 			tasks: [{
 				id: "31867663D678FDC5"
 				item: "minecraft:oak_log"

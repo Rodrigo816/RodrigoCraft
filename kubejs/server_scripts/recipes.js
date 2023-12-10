@@ -17,13 +17,13 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     var resultItem = Item.of('create_dd:industrial_iron/empty_blaze_burner');
 
     // Define the crafting recipe
-    event.shaped(resultItem, [
+    /*event.shaped(resultItem, [
         'RRR',
         'R R',
         'RRR'
     ], {
         R: 'create_dd:industrial_iron_sheet'
-    });
+    }); */
     ///// MODIFY ////
 
     ///// REMOVE ////
