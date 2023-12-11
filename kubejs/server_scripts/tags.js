@@ -1,5 +1,7 @@
 // Listen to item tag event
-ServerEvents.tags('item', event => {
-    // Add the 'ad_astra:fuel_bucket' tag to the 'tfmg:diesel_bucket'
-    event.get('ad_astra:fuel_bucket').add('tfmg:diesel_bucket');
-  })
+
+
+ServerEvents.tags('worldgen/biome', event => {
+    event.removeAll('ad_astra:has_structure/meteor_biomes')
+    event.removeAll('ad_astra:has_structure/oil_well_biomes')
+})

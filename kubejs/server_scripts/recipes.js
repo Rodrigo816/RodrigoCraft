@@ -6,6 +6,20 @@
 */
 
 ServerEvents.recipes(event => { //listen for the "recipes" server event.
+
+  event.recipes.create.mixing(Fluid.of('create:builders_tea',500),[
+		Fluid.of('milk',250),
+ 	 	Fluid.of('water',250),
+		'#leaves'
+	]).heated()
+
+  event.recipes.create.mixing(Fluid.of('ad_astra:fuel',500),[
+		Fluid.of('tfmg:gasoline',250),
+ 	  'twilightforest:ironwood_ingot'
+	]).heated()
+
+
+
     // You can replace `event` with any name you like, as 
     // long as you change it inside the callback too!
     
@@ -14,7 +28,7 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
     // without needing to use ServerEvents.recipes() again.
     ///// ADD ////    
     // Define the result ItemStack
-    var resultItem = Item.of('create_dd:industrial_iron/empty_blaze_burner');
+
 
     // Define the crafting recipe
     /*event.shaped(resultItem, [
@@ -47,4 +61,59 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
     //Ad Astra
     event.remove({ id: 'ad_astra:hammering/iron_plate' })
+    event.remove({ output: "ad_astra:fuel_refinery" })
+    event.remove({ output: "ad_astra:coal_generator" })
+    event.remove({ output: "ad_astra:desh_fluid_pipe" })
+    event.remove({ output: "ad_astra:ostrum_fluid_pipe" })
+    event.remove({ type: "ad_astra:fuel_conversion" })
+
+    //Hostile Netowrks
+    event.remove({ id: "hostilenetworks:living_matter/overworldian/carrot" })
+    event.remove({ id: "hostilenetworks:living_matter/overworldian/potato" })
+    event.remove({ id: "hostilenetworks:living_matter/overworldian/iron_ingot" })
+    event.remove({ id: "hostilenetworks:living_matter/overworld_to_nether" })
+    //event.remove({ id: "hostilenetworks:living_matter/hellish/ghast_tear" })
+    event.remove({ id: "hostilenetworks:living_matter/hellish/blaze_rod" })
+    event.remove({ id: "hostilenetworks:living_matter/hellish/blaze_powder" })
+    event.remove({ id: "hostilenetworks:living_matter/hellish/gold_ingot" })
+    event.remove({ id: "hostilenetworks:living_matter/nether_to_ender" })
+    event.remove({ id: "hostilenetworks:living_matter/extraterrestrial/nether_star" })
+
+    /*
+
+{
+  "type": "ad_astra:fuel_conversion",
+  "input": "#ad_astra_platform:oil",
+  "output": "ad_astra:fuel",
+  "conversion_ratio": 1.0
+}*/
+
+
   })
+
+
+/* EXEMPLE FOR RECIPES OF NASA WORKBENCH
+ServerEvents.recipes(event => {
+    event.recipes.ad_astra.nasa_workbench({
+    "output": "minecraft:golden_apple",
+    ingredients: [
+      { "ingredient": { "item": "ad_astra:rocket_nose_cone" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "item": "ad_astra:rocket_fin" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "tag": "forge:ingots/gold" } },
+      { "ingredient": { "item": "ad_astra:rocket_fin" } },
+      { "ingredient": { "item": "ad_astra:rocket_fin" } },
+      { "ingredient": { "item": "minecraft:apple" } },
+      { "ingredient": { "item": "ad_astra:rocket_fin" } }
+    ]
+  })
+})
+
+*/
+
