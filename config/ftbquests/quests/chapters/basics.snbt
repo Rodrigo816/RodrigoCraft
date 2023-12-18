@@ -9,12 +9,22 @@
 	quests: [
 		{
 			dependencies: ["0EF85FF9606FFEDA"]
+			description: ["depois dás  bulk smoking"]
 			id: "5D5DAD0E0FC3DC21"
-			rewards: [{
-				id: "33C653970E580076"
-				item: "create_dd:rubber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38479F8EE71DC455"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "2B4FE8756D700142"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3351922FB7DE9FA1"
 				item: "create_dd:rubber"
@@ -25,12 +35,22 @@
 		}
 		{
 			dependencies: ["02A3245959332FEE"]
+			description: ["Com o sap dás mixing para obter raw rubber"]
 			id: "0EF85FF9606FFEDA"
-			rewards: [{
-				id: "3419FF00C27C9638"
-				item: "create_dd:raw_rubber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17A1FA1744AF6400"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "36A6CCB93131434C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3E16E94856A27C0F"
 				item: "create_dd:raw_rubber"
@@ -41,29 +61,49 @@
 		}
 		{
 			dependencies: ["4716ADD9A49D9ADF"]
+			description: ["Depois dás item drain para obter sap liquido"]
 			id: "02A3245959332FEE"
-			rewards: [{
-				id: "012D5C89CCC35692"
-				item: "create_dd:sap_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48896C98D0BABE8B"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "38B343BBEBB7610C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "0F67F7BDC57A829D"
-				item: "create_dd:sap_bucket"
-				type: "item"
+				amount: 1000L
+				fluid: "create_dd:sap"
+				id: "4F3CEA4B88A9D363"
+				type: "fluid"
 			}]
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3736B8FDEBFE796E"]
-			description: ["xcvcxvxcvxcvcxvxcv"]
+			description: ["depois pegas no logs e passas numa sawmill"]
 			id: "4716ADD9A49D9ADF"
-			rewards: [{
-				id: "78B7F920EDBC1134"
-				item: "minecraft:stripped_oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "5F5C3D6613A83B35"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EB4674A5597C819"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5E1EF1E74D156452"
 				item: "minecraft:stripped_oak_log"
@@ -73,14 +113,22 @@
 			y: 2.0d
 		}
 		{
-			description: ["{@pagebreak}"]
+			description: ["Tudo começa com uma tree farm{@pagebreak}"]
 			id: "3736B8FDEBFE796E"
-			rewards: [{
-				id: "01BF99361E40C48F"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			subtitle: "ccxbf"
+			rewards: [
+				{
+					count: 5
+					id: "0995D5CCB8A5F8FC"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					icon: "create:brown_toolbox"
+					id: "75FED22CE35EDBB4"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "31867663D678FDC5"
 				item: "minecraft:oak_log"
@@ -91,8 +139,10 @@
 		}
 		{
 			dependencies: ["5D5DAD0E0FC3DC21"]
+			description: ["belts o principal de qualquer assemby line"]
 			id: "1164625D858936F7"
 			rewards: [{
+				count: 10
 				id: "675E7F186ABD39B3"
 				item: "create:belt_connector"
 				type: "item"
@@ -102,9 +152,30 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "RUBBER BELTS"
+			title: "Belts"
 			x: -2.0d
 			y: -1.5d
+		}
+		{
+			id: "20B809315D39A346"
+			tasks: [{
+				id: "5DE306E3F420E894"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["20B809315D39A346"]
+			id: "64C67B2DAA831696"
+			tasks: [{
+				id: "53E6AC95562AF86B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Basics"
