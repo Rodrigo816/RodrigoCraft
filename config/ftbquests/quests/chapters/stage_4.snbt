@@ -626,7 +626,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3B431AAADE8845FA"]
 			description: ["The Secret path has been discovered and pursued. From here, getting the Calculation Mechanism will be trivial."]
 			disable_toast: true
 			hide: true

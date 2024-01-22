@@ -42,10 +42,21 @@ ServerEvents.recipes(event => { //listen for the "recipes" server event.
 
     ///// REMOVE ////
     // Create
-    event.remove({ id: 'create:crafting/kinetics/belt_connector' })
-    event.remove({ id: 'create:crafting/kinetics/mechanical_press' })
-    event.remove({ id: 'create:crafting/kinetics/empty_blaze_burner' })
+    //event.remove({ id: 'create:crafting/kinetics/belt_connector' })
+    //event.remove({ id: 'create:crafting/kinetics/mechanical_press' })
+    //event.remove({ id: 'create:crafting/kinetics/empty_blaze_burner' })
+    event.remove({ id: 'minecraft:andesite' })
 
+    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
+
+    // Create DD
+    event.remove({ id: 'create_dd:industrial_iron/mechanical_drill' })
+    event.remove({ id: 'create_dd:industrial_iron/chute' })
+    event.remove({ id: 'create_dd:industrial_iron/mechanical_press' })
+    event.remove({ id: 'create_dd:industrial_iron/andesite_alloy' })
+    event.remove({ id: 'create_dd:sequenced_assembly/logistics_mechanism' })
+    event.remove({ id: 'create_dd:sequenced_assembly/inductive_mechanism' })
+    event.remove({ id: 'create_dd:crafting/gearbox_from_vertical_gearbox' })
     event.remove({ id: 'create_dd:crafting/gearbox_from_vertical_gearbox' })
     event.remove({ id: 'create_dd:crafting/gearbox' })
     event.remove({ id: 'create_dd:crafting/vertical_gearbox_from_gearbox' })
